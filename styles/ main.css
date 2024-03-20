@@ -4,3 +4,12 @@ h4 {
     padding: 20px;
     background-size: contain;
 }
+
+.announcement {
+    color: red;
+}
+
+.fun {
+    font-size: x-small;
+    font-weight: bolder;
+}
