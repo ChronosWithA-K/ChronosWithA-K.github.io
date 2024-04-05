@@ -2,6 +2,7 @@
 .hover-highlight-card {
     padding: 20px;
 }
+
 .hover-highlight-card:hover {
     background-color: #3498db;
     box-shadow: 45px -16px purple;
@@ -21,6 +22,12 @@
     padding: 4px;
     color: #00aaff;
     background-color: white;
+}
+
+.animated-nav-menu a:hover {
+    color: white;
+    background-color: black;
+    transition: color background-color 0.5s;
 }
 
 /* Task 3: Button Press Animation */
