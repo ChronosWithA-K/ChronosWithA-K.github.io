@@ -42,7 +42,7 @@
 .button-press-animation button:active {
     background-color: white;
     color: black
-    transform: 
+    transform: translateX(5px) translateY(5px); 
 }
 
 /* Task 4: Simple Loading Spinner */
@@ -56,7 +56,7 @@
 
 @keyframes spinningWheel {
     from {
-        transform: roate(0deg);
+        transform: rotate(0deg);
     }
 
     to {
