@@ -40,9 +40,13 @@
     cursor: pointer;
 }
 
+.button-press-animation button:hover {
+    color: gold;
+    box-shadow: 10px 5px 2.5px red;
+}
+
 .button-press-animation button:active {
-    background-color: white;
-    color: black
+    color: black;
     transform: translateX(5px) translateY(5px);
     box-shadow: 10px 10px 5px yellow;
 }
