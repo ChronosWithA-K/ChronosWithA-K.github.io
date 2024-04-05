@@ -4,8 +4,8 @@
 }
 
 .hover-highlight-card:hover {
-    background-color: white;
-    box-shadow: 45px -16px gold;
+    background-color: blue;
+    box-shadow: 10px 16px gold;
 }
 
 /* Task 2: Animated Navigation Menu */
