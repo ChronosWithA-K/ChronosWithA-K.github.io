@@ -2,6 +2,10 @@
 .hover-highlight-card {
     padding: 20px;
 }
+.hover-highlight-card:hover {
+    background-color: #3498db;
+    box-shadow: 45px -16px purple;
+}
 
 /* Task 2: Animated Navigation Menu */
 .animated-nav-menu ul {
