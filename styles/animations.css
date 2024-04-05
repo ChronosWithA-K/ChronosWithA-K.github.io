@@ -4,8 +4,8 @@
 }
 
 .hover-highlight-card:hover {
-    background-color: #3498db;
-    box-shadow: 45px -16px purple;
+    background-color: white;
+    box-shadow: 45px -16px gold;
 }
 
 /* Task 2: Animated Navigation Menu */
@@ -22,6 +22,7 @@
     padding: 4px;
     color: #00aaff;
     background-color: white;
+    transition: color 0.5s, background-color 0.5s
 }
 
 .animated-nav-menu a:hover {
@@ -42,7 +43,8 @@
 .button-press-animation button:active {
     background-color: white;
     color: black
-    transform: translateX(5px) translateY(5px); 
+    transform: translateX(5px) translateY(5px);
+    box-shadow: 10px 10px 5px yellow;
 }
 
 /* Task 4: Simple Loading Spinner */
