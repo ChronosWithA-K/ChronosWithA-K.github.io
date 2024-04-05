@@ -56,6 +56,7 @@
     height: 40px;
 
     animation-name: spinningWheel;
+    animation-duration: 0.001s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -66,7 +67,7 @@
     }
 
     to {
-        transform: rotate(360)deg;
+        transform: rotate(360deg);
     }
 }
 
