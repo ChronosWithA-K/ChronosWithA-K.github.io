@@ -12,11 +12,9 @@ console.log("Task 2");
 
 for (i = 6; i < 1; i--) {
     console.log(i);
-
-    if (i = i) {
-        console.log("Blastoff!")
-    }
 }
+
+console.log("Blastoff!")
 
 // Task 3 - Print the even numbers from 1 to 50 (including 50)
 
