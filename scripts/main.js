@@ -2,7 +2,7 @@
 
 console.log("Task 1");
 
-for (i = 1; i > 11; i * i) {
+for (i = 1; i < 11; i * i) {
     console.log(i);
 }
 
@@ -10,7 +10,7 @@ for (i = 1; i > 11; i * i) {
 
 console.log("Task 2");
 
-for (i = 6; i < 1; i--) {
+for (i = 6; i > 1; i--) {
     console.log(i);
 }
 
