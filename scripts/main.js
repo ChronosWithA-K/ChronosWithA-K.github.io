@@ -2,7 +2,7 @@
 
 console.log("Task 1");
 
-for (i = 1; i < 11; i * i) {
+for (i = 1; i > 11; i * i) {
     console.log(i);
 }
 
@@ -29,6 +29,8 @@ for (i = 0; i < 51; i += 2) {
 // Task 4 - Print the sum of 1 through 100.
 
 console.log("Task 4");
+
+
 
 // Task 5 - Print the first 10 factorials. The factorial of a number n is n multiplied by each integer less than it, down to 1, written as n!
 
