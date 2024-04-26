@@ -71,11 +71,9 @@ for (let i = -1; i >= -arr.length; i--) {
 
 console.log("Task 8");
 
-// Potential solution for task 8 - only returns []
-
 let arr1 = [];
 
-for (let i = 0; i > 10; i++) {
+for (let i = 0; i < 10; i++) {
   arr1.push(i * i * i)
 }
 
