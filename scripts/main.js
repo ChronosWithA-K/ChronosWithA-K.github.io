@@ -85,7 +85,18 @@ console.log(arr1)
 
 console.log("Task 9");
 
+let arr2 = [];
 
+let num1 = 0, num2 = 1, nextNum;
+
+for (let i = 1; i <= 11; i++) {
+    arr2.push(num1)
+    nextNum = num1 + num2;
+    num1 = num2;
+    num2 = nextNum;
+}
+
+console.log(arr2)
 
 // Task 10 - Starting with an empty array in a new variable, add the elements of arr to it in reverse order.
 
