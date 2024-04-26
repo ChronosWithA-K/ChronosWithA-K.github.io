@@ -48,3 +48,33 @@ for (i = 1; i < 11; i++) {
 
   console.log(factorial);
 }
+
+// Task 6 - Add the array arr with the same values as above, and write a loop to log each element to the console.
+
+console.log("Task 6");
+
+
+
+// Task 7 - Using a normal forward for-loop (for (let i = 0; i < arr.length; i++)), use .at() to log each element of arr in reverse order (i.e. 5, 1, 4, 1, 3)
+
+console.log("Task 7");
+
+
+
+// Task 8 - Starting with an empty array in a new variable, create a loop that adds the first 10 cube numbers (e.g. 1*1*1==1**3=1, 2*2*2==2**3==8, etc.) to the array, then log the array itself.
+
+console.log("Task 8");
+
+
+
+// Task 9 - Starting with an empty array in a new variable, add the first 10 fibonacci numbers to the array, then log the array itself.
+
+console.log("Task 9");
+
+
+
+// Task 10 - Starting with an empty array in a new variable, add the elements of arr to it in reverse order.
+
+console.log("Task 10");
+
+
