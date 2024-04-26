@@ -49,11 +49,15 @@ for (i = 1; i < 11; i++) {
   console.log(factorial);
 }
 
-// Task 6 - Add the array arr with the same values as above, and write a loop to log each element to the console.
+// Task 6 - Add the array arr with [3, 1, 4, 1, 5, 9], and write a loop to log each element to the console.
 
 console.log("Task 6");
 
+let arr = [3, 1, 4, 1, 5];
 
+for (i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
 
 // Task 7 - Using a normal forward for-loop (for (let i = 0; i < arr.length; i++)), use .at() to log each element of arr in reverse order (i.e. 5, 1, 4, 1, 3)
 
