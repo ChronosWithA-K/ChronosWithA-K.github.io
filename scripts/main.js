@@ -1,4 +1,4 @@
-// JS Tester - https://playcode.io/javascript
+// JS Tester - https://www.programiz.com/javascript/online-compiler/
 
 // Task 1 - Print the first 10 square numbers (1*1 = 1, 2*2 = 4, etc.)
 
@@ -49,7 +49,7 @@ for (let i = 1; i < 11; i++) {
   console.log(factorial);
 }
 
-// Task 6 - Add the array arr with [3, 1, 4, 1, 5, 9], and write a loop to log each element to the console.
+// Task 6 - Add the array arr with [3, 1, 4, 1, 5], and write a loop to log each element to the console.
 
 console.log("Task 6");
 
@@ -91,4 +91,10 @@ console.log("Task 9");
 
 console.log("Task 10");
 
+let arr3 = [];
 
+for (let i = -1; i >= -arr.length; i--) {
+    arr3.push(arr.at(i));
+}
+
+console.log(arr3)
