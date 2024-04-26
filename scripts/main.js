@@ -4,7 +4,7 @@
 
 console.log("Task 1");
 
-for (i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
     console.log(i * i);
 }
 
@@ -12,7 +12,7 @@ for (i = 1; i < 11; i++) {
 
 console.log("Task 2");
 
-for (i = 6; i > 1; i--) {
+for (let i = 6; i > 1; i--) {
     console.log(i);
 }
 
@@ -22,7 +22,7 @@ console.log("Blastoff!")
 
 console.log("Task 3");
 
-for (i = 0; i < 51; i += 2) {
+for (let i = 0; i < 51; i += 2) {
     console.log(i);
 }
 
@@ -31,7 +31,7 @@ for (i = 0; i < 51; i += 2) {
 console.log("Task 4");
 
 let sum = 0;
-for (i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     sum += i;
 }
 
@@ -43,7 +43,7 @@ console.log("Task 5");
 
 let factorial = 1;
 
-for (i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
   factorial *= i;
 
   console.log(factorial);
@@ -55,7 +55,7 @@ console.log("Task 6");
 
 let arr = [3, 1, 4, 1, 5];
 
-for (i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
 }
 
@@ -63,7 +63,7 @@ for (i = 0; i < arr.length; i++) {
 
 console.log("Task 7");
 
-for (i = -1; i >= -arr.length; i--) {
+for (let i = -1; i >= -arr.length; i--) {
     console.log(arr.at(i));
 }
 
