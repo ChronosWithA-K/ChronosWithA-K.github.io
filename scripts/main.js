@@ -71,7 +71,15 @@ for (i = -1; i >= -arr.length; i--) {
 
 console.log("Task 8");
 
+// Potential solution for task 8 - only returns []
 
+let arr1 = [];
+
+for (let i = 0; i > 10; i++) {
+  arr1.push(i * i * i)
+}
+
+console.log(arr1)
 
 // Task 9 - Starting with an empty array in a new variable, add the first 10 fibonacci numbers to the array, then log the array itself.
 
