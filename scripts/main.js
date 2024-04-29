@@ -63,8 +63,8 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log("Task 7");
 
-for (let i = -1; i >= -arr.length; i--) {
-    console.log(arr.at(i));
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr.at(-i - 1));
 }
 
 // Task 8 - Starting with an empty array in a new variable, create a loop that adds the first 10 cube numbers (e.g. 1*1*1==1**3=1, 2*2*2==2**3==8, etc.) to the array, then log the array itself.
