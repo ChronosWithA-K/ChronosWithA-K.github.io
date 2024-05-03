@@ -6,7 +6,9 @@ let colourArr = ["black", "red", "teal", "crimson", "darkmagenta", "darkorchid",
 
 // Task 2 - Create an unordered list element and store it in a variable.
 
-console.log("Task 3");
+console.log("Task 2");
+
+let unorderedList = document.createElement("ul");
 
 // Task 3 - Create a new list item element for each item in the array you created.
 /**
