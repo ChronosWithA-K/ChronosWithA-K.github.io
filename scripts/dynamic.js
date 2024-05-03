@@ -18,10 +18,10 @@ for (i = 0; i < colourArr.length; i++) {
     let listItemEl = document.createElement("li");
 
 //  Set the innerText (https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText) property of each element to be the string in the array.
-    listItemEl.innerText = colourArr[i + 1];
+    listItemEl.innerText = colourArr[i];
 
 //  Set the color (https://developer.mozilla.org/en-US/docs/Web/CSS/color) CSS property (not a regular property, but part of the style!) of the element to be the string in the array.
-    listItemEl.style.color = colourArr[i + 1];
+    listItemEl.style.color = colourArr[i];
 
 //  Add the element to the end of your unordered list.
     unorderedList.appendChild(listItemEl);
