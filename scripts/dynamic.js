@@ -1,6 +1,6 @@
 // Task 1 - Create an array containing at least 7 strings picked from this list of CSS color values (https://developer.mozilla.org/en-US/docs/Web/CSS/named-color).
 
-
+console.log("Task 1");
 
 // Task 2 - Create an unordered list element and store it in a variable.
 
