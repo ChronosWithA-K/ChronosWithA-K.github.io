@@ -29,6 +29,6 @@ for (i = 0; i < colourArr.length; i++) {
 
 // Task 4 - Add the whole list to the end of the body of your webpage.
 
-    console.log("Task 4");
+console.log("Task 4");
 
-    document.body.appendChild(unorderedList);
+document.body.appendChild(unorderedList);
