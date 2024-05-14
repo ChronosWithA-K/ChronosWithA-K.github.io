@@ -12,7 +12,7 @@ for (let i = 1; i < 11; i++) {
 
 console.log("Task 2");
 
-for (let i = 6; i > 1; i--) {
+for (let i = 5; i > 0; i--) {
     console.log(i);
 }
 
