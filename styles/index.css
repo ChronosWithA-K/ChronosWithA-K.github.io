@@ -1,0 +1,7 @@
+.horiz-navbar {
+    list-style-type: none;
+}
+
+.horiz-navbar-item {
+    display: inline;
+}
