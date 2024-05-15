@@ -3,5 +3,5 @@
 }
 
 .horiz-navbar-item {
-    display: inline;
+    display: flex;
 }
