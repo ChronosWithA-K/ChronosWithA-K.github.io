@@ -1,7 +1,8 @@
 .horiz-navbar {
     list-style-type: none;
+    display: flex;
 }
 
 .horiz-navbar-item {
-    display: flex;
+    padding: 5px;
 }
