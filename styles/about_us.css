@@ -1,6 +1,8 @@
 /* This code only formats the about.html file.*/
 
 body {
+  color: white;
+  background-color: rgb(20, 20, 20);
   font-family: system-ui,
   -apple-system,
   BlinkMacSystemFont,
