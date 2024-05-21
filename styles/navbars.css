@@ -10,11 +10,33 @@
     border-radius: 10%;
     padding: 3px;
     color: rgb(20, 20, 20);
-    background-color: white;
+}
+
+.page-navbar .navbar-home {
+    background: linear-gradient(to bottom right, rgb(255, 177, 31), rgb(252, 70, 221));
+}
+.page-navbar .navbar-devlogs {
+    background: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
+}
+.page-navbar .navbar-about-us {
+    background: linear-gradient(to bottom right, rgb(39, 212, 39), cyan)
 }
 
 .page-navbar a:hover {
     color: white;
     background-color: rgb(20, 20, 20);
     transition: color 0.5s, background-color 0.5s; /* Swap text colour with background colour */
+}
+/* Swap background colours (start out opposite corners now). */
+.page-navbar .navbar-home:hover {
+    background: linear-gradient(to bottom right, rgb(252, 70, 221), rgb(255, 177, 31));
+    transition-duration: 1s;
+}
+.page-navbar .navbar-devlogs:hover {
+    background: linear-gradient(to bottom right, rgb(252, 70, 221), rgb(72, 172, 234));
+    transition-duration: 1s;
+}
+.page-navbar .navbar-about-us:hover {
+    background: linear-gradient(to bottom right, cyan, rgb(39, 212, 39))
+    transition-duration: 1s;
 }

@@ -6,7 +6,7 @@
 
 .intro strong {
     font-size: 125%;
-    text-align: justify; /* I want to make the text block paragraphs shaped like squares, doesn't work. */
+    text-align: justify; /* I want to make the text block bullet points shaped like squares, doesn't work. */
 }
 
 #site-overview {
