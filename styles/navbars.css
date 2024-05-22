@@ -17,7 +17,7 @@ Navbar is smaller for some reason on devlogs page.
 }
 
 .page-navbar .navbar-home {
-    background: linear-gradient(to bottom right, rgb(255, 177, 31), rgb(252, 70, 221));
+    background: linear-gradient(to bottom right, #ff0058, #ffbc00);
 }
 .page-navbar .navbar-devlogs {
     background: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
