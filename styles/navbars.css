@@ -22,7 +22,7 @@ Navbar is smaller for some reason on devlogs page.
     background: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
 }
 .page-navbar .navbar-about-us {
-    background: linear-gradient(to bottom right, rgb(39, 212, 39), cyan)
+    background: linear-gradient(to bottom right, rgb(39, 212, 39), cyan);
 }
 
 /* On hover transitions below. */
@@ -40,6 +40,6 @@ Navbar is smaller for some reason on devlogs page.
     transition-duration: 1s;
 }
 .page-navbar .navbar-about-us:hover {
-    background: linear-gradient(to bottom right, cyan, rgb(39, 212, 39))
+    background: linear-gradient(to bottom right, cyan, rgb(39, 212, 39));
     transition-duration: 1s;
 }
