@@ -6,7 +6,6 @@
 
 .intro strong {
     font-size: 125%;
-    text-align: justify; /* I want to make the text block bullet points shaped like squares, doesn't work. */
 }
 
 #site-overview {
@@ -16,9 +15,10 @@
 
 .intro li {
     padding-inline: 10px;
+    text-align: start;
 }
 
-h1 { /* You can't make the text easily have a gradient colour, you have to work around it (color isn't supported by linear gradient). */
+h1 { /* You can't make the text easily have a gradient colour, you have to work around it (text isn't supported by linear gradient). */
     background-image: linear-gradient(to bottom right, rgb(255, 177, 31), rgb(252, 70, 221));
     background-clip: text;
     color: transparent
@@ -38,9 +38,16 @@ h3 {
     background-clip: text;
     color: transparent;
 }
+.outro {
+    font-size:x-large;
+    font-weight: 600;
+    background: linear-gradient(to bottom right, rgb(0, 102, 255), red);
+    background-clip: text;
+    color: transparent
+}
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(10, 10, 10);
     color: white;
     text-align: center;
     font-family: system-ui,
