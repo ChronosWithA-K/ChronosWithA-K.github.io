@@ -1,5 +1,3 @@
-/* This code only formats the about.html file.*/
-
 body {
   color: white;
   background-color: rgb(20, 20, 20);
@@ -15,4 +13,4 @@ body {
   sans-serif;
   }
 
-/* Make dev cards unformatted like the page navbar */
+/* Remember to make dev cards unformatted like the page navbar */
