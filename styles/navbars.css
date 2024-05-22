@@ -1,4 +1,7 @@
-/* Style horizontal navbar for site navigation */
+/* Style horizontal navbar for site navigation 
+
+Navbar is smaller for some reason on devlogs page.
+*/
 .page-navbar ul {
     list-style-type: none;
     display: flex;
