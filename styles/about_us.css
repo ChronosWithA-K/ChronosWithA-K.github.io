@@ -11,22 +11,20 @@ body {
   'Open Sans',
   'Helvetica Neue',
   sans-serif;
-  }
+}
 
-.container {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Everything bellow this is for the dev description cards. */
+ .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 40px 0;
-}
+ } 
 
-.container .box {
+.container .card {
   position: relative;
-  width: 320px;
+  width: 320px; /* Change values later */
   height: 400px;
   display: flex;
   justify-content: center;
@@ -35,15 +33,131 @@ body {
   transition: 0.5s;
 }
 
-.container .box::before {
-  content:' ';
+.container .card::before {
+  content: '';
   position: absolute;
   top: 0;
   left: 50px;
   width: 50%;
   height: 100%;
-  text-decoration: none;
+  background: white;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s; 
+}
+
+.container .card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  background: white;
   border-radius: 8px;
   transform: skewX(15deg);
   transition: 0.5s;
+  filter: blur(30px);
+  transition: 0.5s;
+}
+
+.container .card:hover:before,
+.container .card:hover:after {
+  transform: skewX(0deg);
+  left: 20px;
+  width: calc(100% - 90px);
+}
+
+/* Give gradient to card one (copy and paste for each card, make child += 1) */
+.container .card:nth-child(1):before,
+.container .card:nth-child(1):after {
+  background: linear-gradient(315deg, #ffbc00, #ff0058);
+}
+
+.container .card span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  pointer-events: none; /* Needed? */
+}
+
+.container .card span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: 0.5s;
+  animation: animate 2s ease-in-out infinite;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.5);
+}
+
+.container .card:hover span::before {
+  top: -50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+.container .card span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: 0.5s;
+  animation: animate 2s ease-in-out infinite;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.5);
+  animation-delay: -1s;
+}
+
+.container .card:hover span::after {
+  bottom: -50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+@keyframes animate {
+  0%, 100%
+  {
+    transform: trasnslateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.container .card .content {
+  position: relative;
+  left: 0;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  transform: 0.5s;
+  color: #fff;
+}
+
+.container .box:hover .content {
+  left: -25px;
+  padding: 60px 40px;
 }
