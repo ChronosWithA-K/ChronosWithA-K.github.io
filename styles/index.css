@@ -40,7 +40,7 @@ h3 {
 }
 .outro {
     padding: 1.5rem; /* Padding changes text gradient start/end for some reason */
-    background: linear-gradient(to bottom right, rgb(0, 102, 255), red); /* Ugly/repetitive, change later */
+    background: linear-gradient(to bottom right, rgb(0, 102, 255), red); /* Repetitive, change later */
     background-clip: text;
     color: transparent
 }
