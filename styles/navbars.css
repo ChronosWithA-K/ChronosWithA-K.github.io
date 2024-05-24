@@ -28,10 +28,14 @@ Navbar is smaller for some reason on devlogs page.
 
 /* On hover transitions below. */
 .page-navbar a:hover {
-    text-decoration: white underline;
     color: white;
-    transition: color 0.5s; /* Turn text white */
+    transition: 0.5s;
 }
+.page-navbar a:hover {
+    text-decoration: white underline;
+    transition: 0.25s;
+}
+
 /* Swap background colours (start out opposite corners now). */
 .page-navbar .navbar-home:hover {
     background: linear-gradient(to bottom right, #ffbc00, #ff0058);
