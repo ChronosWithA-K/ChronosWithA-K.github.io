@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlogs</title>
+    <link rel="stylesheet" href="styles/upriver-devlog.css">
+    <link rel="stylesheet" href="styles/navbars.css">
+</head>
+<body>
+    <div class="page-navbar">
+        <nav> <!-- Create navbar to navigate all site pages. -->
+            <ul>
+                <li><a class="navbar-home" href="index.html">Home</a></li>
+                <li><a class="navbar-devlogs" href="devlogs.html">Devlogs</a></li>
+                <li><a class="navbar-about-us" href="about-us.html">About Us</a></li>
+                <!-- Maybe add Get In Touch page, though probably add that to bottom of About Us -->
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Replace text in h1, h2 with something else specific about this page. -->
+    <h1>Hello World! On this website, I'm going to have devlogs of the games we're making and publishing to app stores.</h1>
+    <h2>I'll add all kinds of things about the games we're making, all here for your convenience.</h2>
+
+    <h4>Upriver Fish Game - Devlog 1</h4>
+    <p class="devlog">
+        For our game idea, we wanted to make something to do with fishing. We eventually landed on a simple game where the player,
+        some kind of fish (probably a salmon) has to go upriver to reach the spawn pools. There'll be an infinite scrolling river, with obstacles
+        that a salmon might face on their journey, such as bears or fishers. There won't really be an end to the game, we were thinking
+        it would be an infinite top-down scroller. We chose the Solar2D engine for the game, since it seemed good, as you could publish
+        to both Apple and Android app stores, and there was documentation on it. We've all had some experience in Lua, which isn't a very
+        complicated language, so it seemed like we could make a game in it. We didn't start developing yet.
+    </p>
+    <p class="devlog">Here are some ideas that we tossed around (besides the one we eventually chose):</p>
+    <ul class="devlog">
+        <li>Fisher is on a boat, can change fishing spots</li>
+        <li>Better/rarer fish deeper down in the water</li>
+        <li>Drop a hook and control it on its way down</li>
+        <li>Can sell fish to a restaurant, or maybe an aquarium</li>
+        <li>Maybe some kind of boss fights or encounters</li>
+        <li>Can hire people in towns to help with fishing or other things</li>
+    </ul>
+
+    <h4>Upriver Fish Game - Devlog 2</h4>
+    <p class="devlog">
+        We started developing. We got the Live Share extension in VS Code, so we could write code and see what everyone else was doing in
+        real time. We set up the repo, and got a bit familiar with the Solar2D engine and what it offered. We added an asset loader, to
+        make changing file locations easier, and we added an options button for changing the settings. Most of this developing period
+        was spent familiarizing ourselves with the way the engine was set up, how it worked, etc. We added a test sound to the game too,
+        to see how audio worked, which went well. We used the built-in example play button to load some random assets in and see how that
+        worked.
+    </p>
+
+    <h4>Upriver Fish Game - Devlog 3</h4>
+    <p class="devlog">
+        We added master volume, game sounds volume, and music volume sliders to the options button. We tried to add some movement
+        to the fish and make the background scroll, at which point we discovered that the Live Share extension was glitching for one our members,
+        and we couldn't see anything they wrote. Another annoying thing is that only the person that was hosting the live share (because it had
+        to be hosted for the Live Share extension to work) could commit changes to GitHub or run the most recent changes on the virtual phone
+        provided by Solar2D; in other words, someone either always had to be running the virtual phone and listening to requests of what to
+        do if we wanted to check our code, or always be committing code constantly, even if the code was one line long. It was extremely
+        annoying, and meant that one person couldn't do much because they always had to be testing things, instead of coding. We fixed some 
+        errors where the play button would give an error if clicked. We didn't really like how the Lua language and Solar2D engine were
+        working, so we considered switching engines (and languages). We haven't decided on anything yet, but we're currently deciding 
+        between Godot, Unity, and .NET MAUI.
+    </p>
+
+    <h4>Upriver Fish Game - Devlog 3.3</h4>
+    <p class="devlog">
+        Note that this wasn't a development stage, just a point where we made some important decisions about the game going forwards. We changed the
+        language we were working in, chose a framework, and a couple more things.
+    </p>
+    <p class="devlog">
+        We decided to try out the libGDX framework. We thought it would work pretty well, and Java would be more useful to know and have experience in
+        than, say, Lua. We set up the project relatively easily, though we ran into some issues with libGDX not being able to find the Android SDK ( We
+        downloaded the wrong tools). Though we had to download Android Studios to get the project set up, we wanted to use IntelliJ IDEA as our IDE. We
+        also all had access to their premium version, so it would be good to get value out of that while we can. Unfortunately, most of us didn't have
+        access to Xcode, which was the only way to put a game on the iOS app store using the libGDX framework (we were using WindowsOS for the most part,
+        and Xcode is for MacOS). Because of this, we chose to optimize our game for Android, and if we wanted to later, our MacOS dev would port it to
+        iOS.
+    </p>
+
+    <h4>Upriver Fish Game - Devlog 3.6</h4>
+    <p class="devlog">
+        We switched over to the Godot game engine, since libGDX was being weird for our Mac user, and the project was difficult to set up. This choice proved
+        to be a good one. We're trying out GodotScript first, since the engine was built for it, and it's a languange built for making games on the Godot engine.
+        We're trying not to switch engines again, but we might switch languages to C++ or C#.
+    </p>
+
+    <h4>Upriver Fish Game - Devlog 4</h4>
+    <p class="devlog">
+        We got Godot set up and installed on our systems, and then started work on the game. We created a background for the game, a fish sprite that can move
+        around, and simple obstacles that start at the top of the screen and slowly move down. The obstacles were left unfinished during this dev period.
+    </p>
+</body>
+</html>
