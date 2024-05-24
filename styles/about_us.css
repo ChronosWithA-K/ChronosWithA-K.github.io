@@ -71,7 +71,12 @@ body {
 /* Give gradient to card one (copy and paste for each card, make child += 1) */
 .container .card:nth-child(1):before,
 .container .card:nth-child(1):after {
-  background: linear-gradient(315deg, #ffbc00, #ff0058);
+  background: linear-gradient(to bottom right, #ff0058, #ffbc00);
+}
+
+.container .card:nth-child(2):before, /* Styles Max's dev card */
+.container .card:nth-child(2):after {
+  background: linear-gradient(to bottom right, #EC008C, #00188F);
 }
 
 .container .card span {
