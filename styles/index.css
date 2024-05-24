@@ -38,9 +38,14 @@ h3 {
     background-clip: text;
     color: transparent;
 }
+
 #outro {
     padding: 1.5rem; /* Padding changes text gradient start/end for some reason */
     background: linear-gradient(to bottom right, rgb(0, 102, 255), red); /* Repetitive, change later */
     background-clip: text;
     color: transparent
+}
+
+body {
+    text-align: center;
 }
