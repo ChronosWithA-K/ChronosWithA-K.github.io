@@ -46,6 +46,10 @@ h3 {
     color: transparent
 }
 
+#attribution {
+    color: white;
+}
+
 body {
     text-align: center;
 }
