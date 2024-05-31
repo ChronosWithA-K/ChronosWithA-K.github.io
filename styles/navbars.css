@@ -3,9 +3,11 @@
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    gap: 10px
+    gap: 10px;
     position: fixed;
-    left: 10px; right: 10px;
+    right: 10px;
+    top: 0; /* Fix offset issue where navbar is moved down the screen by default for some reason */
+    z-index: 999; /* Set navbar an excessive amount of layers above everything else */
 }
 
 .page-navbar a {
