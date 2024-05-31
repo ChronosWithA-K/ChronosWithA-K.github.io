@@ -1,7 +1,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  flex: 20px;
 }
 
 /* Everything below this is for the dev description cards. */
@@ -15,7 +14,7 @@
 
 .container .card {
   position: relative;
-  width: 320px; /* Change values later */
+  width: 320px;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -133,10 +132,10 @@
 @keyframes animate {
   0%, 100%
   {
-    transform: trasnslateY(10px);
+    transform: translateY(5px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 

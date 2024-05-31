@@ -1,9 +1,11 @@
 /* Style horizontal navbar for site navigation */
-.page-navbar ul {
+.page-navbar ul { /* I want to make the navbar stay visible when scrolling, doesn't work */
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    gap: 15px
+    gap: 10px
+    position: fixed;
+    left: 10px; right: 10px;
 }
 
 .page-navbar a {
