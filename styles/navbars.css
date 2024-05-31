@@ -28,7 +28,7 @@
 
 /* On hover transitions below. */
 
-/* Swap background colours (start out opposite corners now). */
+/* Swap background colours. */
 .page-navbar .navbar-home:hover {
     background: linear-gradient(to bottom right, #ffbc00, #ff0058);
     transition-duration: 1s;

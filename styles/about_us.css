@@ -1,6 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
+  width: fit-content; /* Forgot how to make text boxes under prompt (forgot to paste) */
 }
 
 /* Everything below this is for the dev description cards. */
