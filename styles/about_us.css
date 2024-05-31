@@ -1,3 +1,9 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 20px;
+}
+
 /* Everything below this is for the dev description cards. */
  .container {
   display: flex;
