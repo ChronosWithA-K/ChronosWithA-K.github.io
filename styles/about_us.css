@@ -1,7 +1,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: fit-content; /* Forgot how to make text boxes under prompt (forgot to paste) */
+  width: fit-content; /* Forgot how to make text boxes under prompt (forgot to paste), get help later */
 }
 
 #form-header {

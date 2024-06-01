@@ -21,6 +21,7 @@ for (let i = 0; i < devlogs.length; i++) {
     const devlogDiv = document.createElement("div");
     devlogDiv.classList.add("devlog");
 
+    // Title is game name
     const devlogTitle = document.createElement("h2");
     devlogTitle.style.color = devlogs[i].gradientTopLeft; // Change later so title is actually linear gradient
     devlogTitle.innerText = devlogs[i].name;
@@ -29,9 +30,20 @@ for (let i = 0; i < devlogs.length; i++) {
     devlogImage.src = "images/" + devlogs[i].imageSrc;
     devlogImage.alt = "Image of " + devlogs[i].name;
 
+    // Icons for navigating to the game's devlog page and for installing the app
+    const devlogIcon = document.createElement("img");
+    devlogIcon.src = "images/" + devlogs[i].devlogsIcon;
+    devlogIcon.alt = "Devlog icon";
+
+    const installIcon = document.createElement("img");
+    installIcon.src = "images/" + devlogs[i].downloadIcon;
+    installIcon.alt = "Install icon";
+
+    // Create description of game
     const devlogDescription = document.createElement("p");
     devlogDescription.innerText = devlogs[i].description;
 
+    // Create completion status of game
     const devlogStatus = document.createElement("p");
     devlogStatus.innerText = devlogs[i].status;
 
@@ -39,10 +51,12 @@ for (let i = 0; i < devlogs.length; i++) {
     devlogDiv.appendChild(devlogTitle);
     devlogDiv.appendChild(devlogImage);
     devlogDiv.appendChild(devlogDescription);
+    devlogDiv.appendChild(devlogStatus);
+    devlogDiv.appendChild(devlogIcon);
 
     devlogItem.appendChild(devlogDiv);
 
-    devlogList.appendChild(devlogItem);
+    devlogList.appendChild(devlogIcon);
 }
 
 document.getElementById("devlogs").appendChild(devlogList);
