@@ -4,6 +4,10 @@
   width: fit-content; /* Forgot how to make text boxes under prompt (forgot to paste) */
 }
 
+#form-header {
+  text-align: center;
+}
+
 /* Everything below this is for the dev description cards. */
  .container {
   display: flex;
