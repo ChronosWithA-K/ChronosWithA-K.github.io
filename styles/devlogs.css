@@ -1,2 +1,10 @@
 /* You can use grayscale(1) to make images turn black/grey: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/grayscale */
 
+#footer { /* Need to make text align to bottom of screen */
+    bottom: 0%;
+    text-align: center;
+}
+
+#footer a { /* Fix link colour being set to black by default */
+    color: white;
+}
