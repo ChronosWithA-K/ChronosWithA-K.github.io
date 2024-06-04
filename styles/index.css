@@ -46,13 +46,13 @@ h3 {
     color: transparent
 }
 
-#attribution {
+#footer {
     color: white;
     font-size: 80%;
-    padding: 0;
 
-    display: flex;
-    align-items: baseline; /* Text has to go to bottom, doesn't work */
+    bottom: 0;
+    left: 45%; /* Fixes footer not being perfectly in center with 50% */
+    position: absolute;
 }
 
 body {
