@@ -7,8 +7,8 @@ const devlogs = [
         // The below gradients are meant for the name of the game.
         gradientTopLeft: "red", // replace later
         gradientTopRight: "blue", // replace later
-        imageSrc: "exampleimage.png", // Replace with photo of game later
-        description: "Play a game where you take control of a salmon, swimming upriver in an attempt to reach the spawn pools (not finalised)",
+        imageSrc: "exampleimage.png", // Replace with official photo of game later
+        description: "Play a game where you take control of a salmon, swimming upriver in an attempt to reach the spawn pools (idea not finalised)",
         status: "In Development",
         devlogsIcon: "images/devlog_icon.png",
         downloadIcon: "images/download_icon.png",
@@ -53,10 +53,9 @@ for (let i = 0; i < devlogs.length; i++) {
     devlogDiv.appendChild(devlogDescription);
     devlogDiv.appendChild(devlogStatus);
     devlogDiv.appendChild(devlogIcon);
+    devlogDiv.appendChild(installIcon);
 
     devlogItem.appendChild(devlogDiv);
-
-    devlogList.appendChild(devlogIcon);
 }
 
 document.getElementById("devlogs").appendChild(devlogList);
