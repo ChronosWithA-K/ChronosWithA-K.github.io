@@ -1,11 +1,21 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: fit-content; /* Forgot how to make text boxes under prompt (forgot to paste), get help later */
+  width: fit-content;
+  justify-content: center;
+}
+
+.form button {
+  padding-top: 10px;
 }
 
 #form-header {
   text-align: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Everything below this is for the dev description cards. */

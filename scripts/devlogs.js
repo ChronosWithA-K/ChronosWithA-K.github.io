@@ -3,7 +3,8 @@ devlogList.classList.add("cards");
 
 const devlogs = [
     {
-        name: "Upriver (placeholder)", // Copy for each game with a devlog site.
+        // Copy for each game.
+        name: "Upriver (placeholder)",
         // The below gradients are meant for the name of the game.
         gradientTopLeft: "red", // replace later
         gradientTopRight: "blue", // replace later
@@ -56,6 +57,8 @@ for (let i = 0; i < devlogs.length; i++) {
     devlogDiv.appendChild(installIcon);
 
     devlogItem.appendChild(devlogDiv);
+
+    devlogList.appendChild(devlogItem);
 }
 
 document.getElementById("devlogs").appendChild(devlogList);
