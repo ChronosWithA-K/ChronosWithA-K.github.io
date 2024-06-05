@@ -12,4 +12,7 @@
     color: white;
 }
 
-/* Everything below this is for the project cards */
+/* Everything below this is for the game cards */
+.devlog {
+    list-style-type: none;
+}

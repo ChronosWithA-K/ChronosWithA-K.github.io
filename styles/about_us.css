@@ -1,13 +1,16 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: fit-content;
   justify-content: center;
-  align-self: center;
+  align-items: center;
 }
 
-.form button {
-  padding-top: 10px;
+/* Make text input boxes go to center (doesn't go to center of screen for some reason) */
+input {
+  align-self: center;
+}
+textarea {
+  align-self: center;
 }
 
 #form-header {
@@ -17,6 +20,7 @@
 label {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 /* Everything below this is for the dev description cards. */
