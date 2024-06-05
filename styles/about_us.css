@@ -3,6 +3,7 @@
   flex-direction: column;
   width: fit-content;
   justify-content: center;
+  align-self: center;
 }
 
 .form button {
