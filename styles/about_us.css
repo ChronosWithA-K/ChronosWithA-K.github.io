@@ -9,6 +9,27 @@ h1, h2, h3, #studio-desc {
   text-align: center;
 }
 
+h1 {
+  background-image: linear-gradient(to bottom right, #ff0058, #ffbc00);
+  background-clip: text;
+  color: transparent;
+}
+h2 {
+  background-image: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
+  background-clip: text;
+  color: transparent;
+}
+h3 {
+  background-image: linear-gradient(to bottom right, blue, red);
+  background-clip: text;
+  color: transparent;
+}
+#studio-desc {
+  background-image: linear-gradient(to bottom right, rgb(39, 212, 39), cyan);
+  background-clip: text;
+  color: transparent;
+}
+
 /* Make text input boxes go to center */
 input {
   align-self: center;
@@ -88,8 +109,13 @@ label {
   background: linear-gradient(to bottom right, #ff0058, #ffbc00);
 }
 
-.container .card:nth-child(2):before, /* Styles Max's dev card */
+.container .card:nth-child(2):before, /* Styles Ayansh's dev card */
 .container .card:nth-child(2):after {
+  background: linear-gradient(to bottom right, blue, red);
+}
+
+.container .card:nth-child(3):before, /* Styles Max's dev card */
+.container .card:nth-child(3):after {
   background: linear-gradient(to bottom right, #EC008C, #00188F);
 }
 
