@@ -1,7 +1,7 @@
-const devlogList = document.createElement("ul");
-devlogList.classList.add("cards");
+const gameList = document.createElement("ul");
+gameList.classList.add("cards");
 
-const devlogs = [
+const games = [
     {
         // Copy for each game.
         name: "Upriver (placeholder)",
@@ -12,57 +12,62 @@ const devlogs = [
         description: "Play a game where you take control of a salmon, swimming upriver in an attempt to reach the spawn pools (idea not finalised)",
         status: "In Development",
         devlogsIcon: "images/devlog_icon.png",
-        downloadIcon: "images/download_icon.png",
+        devlogLink: "upriver-devlog.html",
+        downloadIcon: "images/download_icon.png", // No download link as game isn't finished
     }
 ];
 
-for (let i = 0; i < devlogs.length; i++) {
-    const devlogItem = document.createElement("li");
+for (let i = 0; i < games.length; i++) {
+    const gameItem = document.createElement("li");
 
-    const devlogDiv = document.createElement("div");
-    devlogDiv.classList.add("devlog");
+    const gameDiv = document.createElement("div");
+    gameDiv.classList.add("game");
 
     // Title is game name
-    const devlogTitle = document.createElement("p");
-    devlogTitle.style.backgroundImage = `linear-gradient(to bottom right, ${devlogs[i].gradientTopLeft}, ${devlogs[i].gradientBottomRight})`;
-    devlogTitle.innerText = devlogs[i].name;
-    devlogTitle.classList.add("gameTitle");
+    const gameTitle = document.createElement("p");
+    gameTitle.style.backgroundImage = `linear-gradient(to bottom right, ${games[i].gradientTopLeft}, ${games[i].gradientBottomRight})`;
+    gameTitle.innerText = games[i].name;
+    gameTitle.classList.add("gameTitle");
 
     // Image of game
-    const devlogImage = document.createElement("img");
-    devlogImage.src = devlogs[i].imageSrc;
-    devlogImage.alt = "Image of " + devlogs[i].name;
+    const gameImage = document.createElement("img");
+    gameImage.src = games[i].imageSrc;
+    gameImage.alt = "Image of " + games[i].name;
 
     // Icons for navigating to the game's devlog page and for installing the app
     const devlogIcon = document.createElement("img");
-    devlogIcon.src = devlogs[i].devlogsIcon;
+    devlogIcon.src = games[i].devlogsIcon;
     devlogIcon.alt = "Devlog icon";
     devlogIcon.classList.add("devlogImage");
 
+    devlogIcon.onclick() = function(event) {
+        window.location.href = games[i].devlogLink;
+    }
+
     const installIcon = document.createElement("img");
-    installIcon.src = devlogs[i].downloadIcon;
+    installIcon.src = games[i].downloadIcon;
     installIcon.alt = "Install icon";
     installIcon.classList.add("installImage");
 
     // Create description of game
-    const devlogDescription = document.createElement("p");
-    devlogDescription.innerText = devlogs[i].description;
+    const gameDescription = document.createElement("p");
+    gameDescription.innerText = games[i].description;
 
     // Create completion status of game
-    const devlogStatus = document.createElement("p");
-    devlogStatus.innerText = "Status: " + devlogs[i].status;
+    const gameStatus = document.createElement("p");
+    gameStatus.innerText = "Status: " + games[i].status;
 
     // Add created elements to each other
-    devlogDiv.appendChild(devlogTitle);
-    devlogDiv.appendChild(devlogImage);
-    devlogDiv.appendChild(devlogDescription);
-    devlogDiv.appendChild(devlogStatus);
-    devlogDiv.appendChild(devlogIcon);
-    devlogDiv.appendChild(installIcon);
+    gameDiv.appendChild(gameTitle);
+    gameDiv.appendChild(gameImage);
+    gameDiv.appendChild(gameDescription);
+    gameDiv.appendChild(gameStatus);
+    gameDiv.appendChild(devlogIcon);
+    gameDiv.appendChild(installIcon);
 
-    devlogItem.appendChild(devlogDiv);
+    gameItem.appendChild(gameDiv);
 
-    devlogList.appendChild(devlogItem);
+    gameList.appendChild(gameItem);
 }
 
-document.getElementById("devlogs").appendChild(devlogList);
+document.getElementById("games").appendChild(gameList);
