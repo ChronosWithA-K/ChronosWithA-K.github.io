@@ -41,7 +41,7 @@ for (let i = 0; i < devlogs.length; i++) {
     const installIcon = document.createElement("img");
     installIcon.src = devlogs[i].downloadIcon;
     installIcon.alt = "Install icon";
-    installIcon.classList.add("installIcon");
+    installIcon.classList.add("installImage");
 
     // Create description of game
     const devlogDescription = document.createElement("p");
