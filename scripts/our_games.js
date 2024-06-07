@@ -40,9 +40,9 @@ for (let i = 0; i < games.length; i++) {
     devlogIcon.alt = "Devlog icon";
     devlogIcon.classList.add("devlogImage");
 
-    devlogIcon.onclick() = function(event) {
+    devlogIcon.addEventListener("click",function() {
         window.location.href = games[i].devlogLink;
-    }
+    });
 
     const installIcon = document.createElement("img");
     installIcon.src = games[i].downloadIcon;

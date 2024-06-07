@@ -1,11 +1,12 @@
 h4 {
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(to bottom right, blue, red);
+    background-clip: text;
+    color: transparent;
+
     padding: 10px;
-    background-size: contain;
     text-align: center;
 }
 
-body {
+.logs {
     text-align: justify;
 }  
