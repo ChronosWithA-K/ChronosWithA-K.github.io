@@ -24,17 +24,17 @@ h1 { /* You can't make the text easily have a gradient colour, you have to work 
     color: transparent
 }
 h2 {
-    background: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
+    background-image: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
     background-clip: text;
     color: transparent
 }
 h3 {
-    background: linear-gradient(to bottom right, rgb(39, 212, 39), cyan);
+    background-image: linear-gradient(to bottom right, rgb(39, 212, 39), cyan);
     background-clip: text;
     color: transparent;
 }
 .gradient {
-    background: linear-gradient(to bottom right, red, rgb(0, 102, 255));
+    background-image: linear-gradient(to bottom right, red, rgb(0, 102, 255));
     background-clip: text;
     color: transparent;
 }
