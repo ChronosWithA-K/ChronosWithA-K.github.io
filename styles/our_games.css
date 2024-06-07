@@ -16,6 +16,7 @@
     border-image: linear-gradient(blue, red) 1;
     border-style: solid; /* Makes border gradient show up */
     width: 500px;
+    text-align: center;
 }
 
 .devlogImage, .installImage {
