@@ -10,13 +10,34 @@
     color: white;
 }
 
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 135%;
+
+    background-image: linear-gradient(to bottom right, #ff0058, #ffbc00);
+    background-clip: text;
+    color: transparent;
+}
+h2 {
+    font-size: 125%;
+
+    background-image: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
+    background-clip: text;
+    color: transparent;
+}
+
 /* Everything below this is for the game cards */
 .game {
-    list-style-type: none; /* Need to make game cards have no circle thing, doesn't work */
-    border-image: linear-gradient(blue, red) 1;
+    border-image: linear-gradient(to bottom right, rgb(39, 212, 39), cyan) 1;
     border-style: solid; /* Makes border gradient show up */
-    width: 500px;
+    width: 400px;
     text-align: center;
+}
+
+* {
+    list-style-type: none;
 }
 
 .gameTitle {
