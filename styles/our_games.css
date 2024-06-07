@@ -16,3 +16,8 @@
 .devlog {
     list-style-type: none;
 }
+
+.devlogIcon {
+    width: 20%;
+    height: auto;
+}

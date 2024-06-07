@@ -19,7 +19,7 @@
 .page-navbar .navbar-home {
     background: linear-gradient(to bottom right, #ff0058, #ffbc00);
 }
-.page-navbar .navbar-devlogs {
+.page-navbar .navbar-games {
     background: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
 }
 .page-navbar .navbar-about-us {
@@ -33,7 +33,7 @@
     background: linear-gradient(to bottom right, #ffbc00, #ff0058);
     transition-duration: 1s;
 }
-.page-navbar .navbar-devlogs:hover {
+.page-navbar .navbar-games:hover {
     background: linear-gradient(to bottom right, rgb(252, 70, 221), rgb(72, 172, 234));
     transition-duration: 1s;
 }
