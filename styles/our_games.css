@@ -1,5 +1,3 @@
-/* You can use grayscale(1) to make images turn black/grey: https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/grayscale */
-
 .footer {
     font-size: 75%;
     bottom: 0;
@@ -15,17 +13,19 @@
 /* Everything below this is for the game cards */
 .devlog {
     list-style-type: none;
+    border-image: linear-gradient(blue, red) 30;
+    width: 500px;
 }
 
 .devlogImage, .installImage {
-    width: 1.75%;
+    width: 7.5%;
     height: auto;
     filter: grayscale(1);
 }
 
 .devlogImage:hover, .installImage:hover {
     filter: grayscale(0);
-    width: 2%;
+    width: 10%;
     height: auto;
     transition: 0.5s;
 }
