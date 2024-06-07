@@ -5,7 +5,11 @@
   align-items: center;
 }
 
-/* Make text input boxes go to center (doesn't go to center of screen for some reason) */
+h1, h2, h3, #studio-desc {
+  text-align: center;
+}
+
+/* Make text input boxes go to center */
 input {
   align-self: center;
 }
