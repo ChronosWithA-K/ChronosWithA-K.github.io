@@ -18,6 +18,14 @@
 }
 
 .devlogImage, .installImage {
-    width: 5%;
+    width: 1.75%;
     height: auto;
+    filter: grayscale(1);
+}
+
+.devlogImage:hover, .installImage:hover {
+    filter: grayscale(0);
+    width: 2%;
+    height: auto;
+    transition: 0.5s;
 }
