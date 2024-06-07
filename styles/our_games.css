@@ -13,7 +13,8 @@
 /* Everything below this is for the game cards */
 .devlog {
     list-style-type: none; /* Need to make game cards have no circle thing, doesn't work */
-    border-image: linear-gradient(blue, red) 30;
+    border-image: linear-gradient(blue, red) 1;
+    border-style: solid; /* Makes border gradient show up */
     width: 500px;
 }
 
