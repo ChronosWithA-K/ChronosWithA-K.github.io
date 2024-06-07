@@ -23,7 +23,7 @@ for (let i = 0; i < devlogs.length; i++) {
     devlogDiv.classList.add("devlog");
 
     // Title is game name
-    const devlogTitle = document.createElement("h2");
+    const devlogTitle = document.createElement("p");
     devlogTitle.style.color = devlogs[i].gradientTopLeft; // Change later so title is actually linear gradient
     devlogTitle.innerText = devlogs[i].name;
 
