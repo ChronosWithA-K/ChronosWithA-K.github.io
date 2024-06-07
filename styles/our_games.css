@@ -19,7 +19,19 @@
     text-align: center;
 }
 
+.gameTitle {
+    font-size: 125%;
+    padding: none;
+
+    /* Finish making title a linear gradient */
+    background-clip: text;
+    color: transparent;
+}
+
 .devlogImage, .installImage {
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
     width: 7.5%;
     height: auto;
     filter: grayscale(1);

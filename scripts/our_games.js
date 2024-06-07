@@ -7,8 +7,8 @@ const devlogs = [
         name: "Upriver (placeholder)",
         // The below gradients are meant for the name of the game.
         gradientTopLeft: "red", // replace later
-        gradientTopRight: "blue", // replace later
-        imageSrc: "exampleimage.png", // Replace with official photo of game later
+        gradientBottomRight: "blue", // replace later
+        imageSrc: "images/placeholder.jpg", // Replace with official photo of game later
         description: "Play a game where you take control of a salmon, swimming upriver in an attempt to reach the spawn pools (idea not finalised)",
         status: "In Development",
         devlogsIcon: "images/devlog_icon.png",
@@ -24,8 +24,9 @@ for (let i = 0; i < devlogs.length; i++) {
 
     // Title is game name
     const devlogTitle = document.createElement("p");
-    devlogTitle.style.color = devlogs[i].gradientTopLeft; // Change later so title is actually linear gradient
+    devlogTitle.style.backgroundImage = `linear-gradient(to bottom right, ${devlogs[i].gradientTopLeft}, ${devlogs[i].gradientBottomRight})`;
     devlogTitle.innerText = devlogs[i].name;
+    devlogTitle.classList.add("gameTitle");
 
     // Image of game
     const devlogImage = document.createElement("img");
@@ -49,7 +50,7 @@ for (let i = 0; i < devlogs.length; i++) {
 
     // Create completion status of game
     const devlogStatus = document.createElement("p");
-    devlogStatus.innerText = devlogs[i].status;
+    devlogStatus.innerText = "Status: " + devlogs[i].status;
 
     // Add created elements to each other
     devlogDiv.appendChild(devlogTitle);
