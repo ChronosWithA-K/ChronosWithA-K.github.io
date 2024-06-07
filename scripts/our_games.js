@@ -33,6 +33,7 @@ for (let i = 0; i < games.length; i++) {
     const gameImage = document.createElement("img");
     gameImage.src = games[i].imageSrc;
     gameImage.alt = "Image of " + games[i].name;
+    gameImage.classList.add("gameImage");
 
     // Icons for navigating to the game's devlog page and for installing the app
     const devlogIcon = document.createElement("img");

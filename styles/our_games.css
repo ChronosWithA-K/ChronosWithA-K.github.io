@@ -1,8 +1,7 @@
 .footer {
     font-size: 75%;
     bottom: 0;
-    text-align: center;
-    left: 50%; /* How do I make text actually go to center */
+    left: 45%;
     position: absolute;
 }
 
@@ -26,6 +25,12 @@ h2 {
     background-image: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
     background-clip: text;
     color: transparent;
+    padding-bottom: 30px;
+}
+
+.gameImage {
+    width: 300px;
+    height: auto;
 }
 
 /* Everything below this is for the game cards */
@@ -37,7 +42,7 @@ h2 {
 }
 
 * {
-    list-style-type: none;
+    list-style-type: none; /* Get rid of bullet points next to cards */
 }
 
 .gameTitle {
