@@ -114,8 +114,13 @@ label {
   background: linear-gradient(to bottom right, blue, red);
 }
 
-.container .card:nth-child(3):before, /* Styles Max's dev card */
+.container .card:nth-child(3):before, /* Styles Iris' dev card */
 .container .card:nth-child(3):after {
+  background: linear-gradient(to bottom right, #000000FF, #DEADBEEF);
+}
+
+.container .card:nth-child(4):before, /* Styles Max's dev card */
+.container .card:nth-child(4):after {
   background: linear-gradient(to bottom right, #EC008C, #00188F);
 }
 
