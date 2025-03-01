@@ -25,7 +25,6 @@ h2 {
     background-image: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
     background-clip: text;
     color: transparent;
-    padding-bottom: 30px;
 }
 
 li {
@@ -34,7 +33,7 @@ li {
 }
 
 .gameImage {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -42,7 +41,7 @@ li {
 .game {
     border-image: linear-gradient(to bottom right, rgb(39, 212, 39), cyan) 1;
     border-style: solid; /* Makes border gradient show up */
-    width: 400px;
+    width: 300px;
     text-align: center;
 }
 
@@ -51,8 +50,7 @@ li {
 }
 
 .gameTitle {
-    font-size: 125%;
-    padding: none;
+    font-size: 110%;
 
     /* Finish making title a linear gradient */
     background-clip: text;
@@ -60,9 +58,7 @@ li {
 }
 
 .devlogImage, .installImage {
-    padding: 15px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 10px 5%;
     width: 7.5%;
     height: auto;
     filter: grayscale(1);
