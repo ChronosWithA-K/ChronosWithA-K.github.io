@@ -20,12 +20,17 @@ h1 {
     color: transparent;
 }
 h2 {
-    font-size: 125%;
+    font-size: 100%;
 
     background-image: linear-gradient(to bottom right, rgb(72, 172, 234), rgb(252, 70, 221));
     background-clip: text;
     color: transparent;
     padding-bottom: 30px;
+}
+
+li {
+    display: inline-flex;
+    padding: 10px;
 }
 
 .gameImage {
