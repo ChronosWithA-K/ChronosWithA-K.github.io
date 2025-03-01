@@ -14,7 +14,7 @@ const games = [
         devlogsIcon: "images/devlog_icon.png",
         devlogLink: "",
         downloadIcon: "images/download_icon.png",
-        downloadLink: "https://apps.apple.com/us/app/nexolink/id6636497206",
+        downloadLink: "https://apps.apple.com/us/app/nexolink/id6636497206"
     },
     {
         name: "Upriver (placeholder)",
@@ -26,14 +26,14 @@ const games = [
         devlogsIcon: "images/devlog_icon.png",
         devlogLink: "upriver-devlog.html",
         downloadIcon: "images/download_icon.png",
-        downloadLink: "" // No download link as game isn't finished
+        downloadLink: ""
     }
 ];
 
 for (let i = 0; i < games.length; i++) {
     const gameItem = document.createElement("li");
-
     const gameDiv = document.createElement("div");
+    
     gameDiv.classList.add("game");
 
     // Title is game name
