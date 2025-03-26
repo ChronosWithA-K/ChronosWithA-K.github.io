@@ -3,20 +3,6 @@ gameList.classList.add("cards");
 
 const games = [
     {
-        // Copy for each game.
-        name: "Nexolink",
-        // The below gradients are meant for the name of the game.
-        gradientTopLeft: "rgb(72, 172, 234)",
-        gradientBottomRight: "rgb(252, 70, 221)",
-        imageSrc: "images/nexo.webp",
-        description: "A volunteer hub for those living in Marin.",
-        status: "Released (still receiving updates)",
-        devlogsIcon: "images/devlog_icon.png",
-        devlogLink: "",
-        downloadIcon: "images/download_icon.png",
-        downloadLink: "https://apps.apple.com/us/app/nexolink/id6636497206"
-    },
-    {
         name: "Upriver (placeholder)",
         gradientTopLeft: "rgb(72, 172, 234)",
         gradientBottomRight: "rgb(252, 70, 221)",
