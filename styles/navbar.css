@@ -9,17 +9,13 @@ body {
 
 #navbar {
     position: absolute;
-
     top: 0;
     width: 100%;
     z-index: 50;
-
     background-color: black;
     font-weight: bold;
-
     color: white;
     font-family: "Poppins", sans-serif !important;
-
 }
 
 #navbar::before {
@@ -31,31 +27,24 @@ body {
     height: 100%;
     background-color: black;
     z-index: -1;
-
 }
 
 #navbar ul {
     list-style: none;
-
     margin: 0;
     display: flex;
     justify-content: flex-end;
-
     align-items: center;
-
     padding: 1em 0;
     font-family: "Poppins", sans-serif !important;
-
 }
 
 #navbar li {
     padding: 0 1em;
-
 }
 
 #navbar li a {
     text-decoration: none;
-
     color: white;
     position: relative;
     transition: all ease-in-out 250ms;

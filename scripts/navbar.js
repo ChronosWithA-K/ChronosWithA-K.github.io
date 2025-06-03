@@ -13,7 +13,6 @@ class NavBar extends HTMLElement {
             <li><a href="/my-writing.html">My Writing</a></li>
             <li><a href="/resume-internships.html">Resume/Internships</a></li>
             <li><a href="/sports-extracurriculars.html">Sports/Extracurriculars</a></li>
-       
         </ul>`;
     }
 }
