@@ -1,0 +1,17 @@
+body {
+    padding-top: 5vh
+}
+
+.title {
+    display: block;
+    text-align: center;
+}
+
+.memoir {
+    padding-right: 10vh;
+    padding-left: 10vh;
+    display: block;
+    text-align: justify;
+    text-justify: auto;
+    line-height: 2;
+}
