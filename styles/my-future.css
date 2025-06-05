@@ -1,0 +1,40 @@
+body {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff4081;
+    font-weight: bold;
+    text-decoration: #ff4081 underline;
+}
+
+.future ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 45%;
+    margin-left: auto;
+    padding-right: 2rem;
+}
+
+.future li {
+    padding-inline: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+
+    margin-bottom: 5rem;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    margin-top: -21rem;  /* This will move the div up */
+}
+
+.goals {
+    padding-left: 15vw;
+    padding-top: 2rem;
+}
