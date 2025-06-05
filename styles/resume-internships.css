@@ -31,8 +31,7 @@ p {
 }
 
 .feature-item:hover {
-    transform: translateY(-8px);
-    tranform: translateX(-8px);
+    transform: translateY(-8px) translateX(-8px);
     box-shadow: 15px 15px 20px rgb(218, 95, 136);
 }
 
