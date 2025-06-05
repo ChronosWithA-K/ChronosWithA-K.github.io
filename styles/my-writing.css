@@ -1,6 +1,27 @@
-h1 {
+h1, h2, h3 {
     text-align: center;
     color: #ff4081;
     font-weight: bold;
     text-decoration: #ff4081 underline;
+}
+
+h1 {
+    padding-bottom: 2vh;
+}
+
+p, li {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+strong {
+    padding-left: 5vw;
 }
